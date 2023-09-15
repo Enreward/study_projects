@@ -1,0 +1,12 @@
+# coding: utf-8
+
+import sys
+
+def print_argv():
+    args = sys.argv
+    out = ''
+    for i in range(1, len(args)):
+        out += args[i] + ' '
+    return out
+
+print(print_argv())
